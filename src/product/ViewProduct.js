@@ -31,6 +31,7 @@ function ViewProduct() {
             <tr>
                 <th> Id</th>
                 <th>ProductName</th>
+                <th>productImage</th>
                 <th>Specification</th>
                 <th>Manufacturer</th>
                 <th>Quantity</th>
@@ -43,11 +44,14 @@ function ViewProduct() {
             products.map((products)=><tr>
                  <td>{products.id}</td>
                  <td>{products.productName}</td>
+                 <td><img src={products.productImage} width={100}></img></td>
                  <td>{products.specification}</td>
                  <td>{products.manufaturer}</td>
                  <td>{products.quantity}</td>
                  <td>{products.price}</td>
+
                  <td><input type='checkbox' checked={products.inStock}></input></td>
+
                  <td>
                     <button className='btn btn-outline-danger me-4' onClick={()=>deleteProduct(products.id)}>
                         <i class="bi bi-trash3-fill"></i></button>

@@ -3,6 +3,7 @@
     {
       "id": "prod03",
       "productName": "watch",
+      "productImage":"../w.png",
       "specification": "traditional watch",
       "manufaturer": "Taitan",
       "quantity": "300",
@@ -12,6 +13,7 @@
     {
       "id": "prod04",
       "productName": "mouse",
+      "productImage":"./m.jpg",
       "specification": "wireless",
       "manufaturer": "dell",
       "quantity": "40",
@@ -21,6 +23,7 @@
     {
       "id": "prod03",
       "productName": "pendrive",
+      "productImage":"./p.jpg",
       "specification": "traditional watch",
       "manufaturer": "Taitan",
       "quantity": "300",

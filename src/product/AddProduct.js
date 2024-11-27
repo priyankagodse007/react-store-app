@@ -56,6 +56,11 @@ const {id}=useParams()
           <input type='text'{...register('productName')} className='form-control border border-dark'/>
         </div>
         <div>
+          <label className='form-label'>Enter product productImage</label>
+          <input type='text'{...register('productImage')} className='form-control border border-dark'/>
+        </div>
+
+        <div>
           <label className='form-label'>Enter product Specification</label>
           <input type='text'{...register('specification')} className='form-control border border-dark'/>
         </div>
