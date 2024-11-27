@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "id": "prod03",
+      "productName": "watch",
+      "specification": "traditional watch",
+      "manufaturer": "Taitan",
+      "quantity": "300",
+      "price": "1000",
+      "inStock": true
+    },
+    {
+      "id": "prod04",
+      "productName": "mouse",
+      "specification": "wireless",
+      "manufaturer": "dell",
+      "quantity": "40",
+      "price": "500",
+      "inStock": true
+    },
+    {
+      "id": "prod03",
+      "productName": "pendrive",
+      "specification": "traditional watch",
+      "manufaturer": "Taitan",
+      "quantity": "300",
+      "price": "1000",
+      "inStock": true
+    }
+  ]
+}
