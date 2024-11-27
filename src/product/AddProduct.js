@@ -44,6 +44,7 @@ const {id}=useParams()
     <div className='' style={{borderStyle:'dashed'}}>
       <div className='bg-white w-5 m-10' style={{width:'500px',margin:'auto',borderStyle:'solid'}}>
         <h1>{id}</h1>
+        <h1>React GitHub</h1>
       <h1 className='text-center fs-3 text-primary'>Add Product details</h1>
       <form onSubmit={handleSubmit(saveData)}>
         <div>
